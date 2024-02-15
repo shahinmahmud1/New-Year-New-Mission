@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    /* border: 1px solid red; */
 }
 
 li {
@@ -162,14 +163,14 @@ body {
     width: 30%;
 }
 
-.offer-mini-title {
+.offer-mini-title, .portfolio-mini-title {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
 
-.offer-title {
+.offer-title, .portfolio-title {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -177,7 +178,7 @@ body {
     margin: 22px 0;
 }
 
-.offer-description {
+.offer-description, .portfolio-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -198,7 +199,27 @@ body {
     margin-bottom: 15px;
 }
 
-.offer-right-img{
+.offer-right-img {
     max-width: 140px;
     margin-top: 43px;
+}
+
+/* Portfolio section related styles */
+
+
+
+.portfolio-img-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 48px;
+}
+.portfolio-img{
+    max-width: 424px;
+    border-radius: 16px;
+    transition: 0.2s;
+}
+
+.portfolio-img:hover{
+    transform: scale(1.2);
 }
