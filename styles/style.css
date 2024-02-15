@@ -163,14 +163,17 @@ body {
     width: 30%;
 }
 
-.offer-mini-title, .portfolio-mini-title {
+.offer-mini-title,
+.portfolio-mini-title {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
 
-.offer-title, .portfolio-title {
+.offer-title,
+.portfolio-title,
+.subscribe-title {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -178,7 +181,9 @@ body {
     margin: 22px 0;
 }
 
-.offer-description, .portfolio-description {
+.offer-description,
+.portfolio-description,
+.subscribe-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -208,18 +213,67 @@ body {
 
 
 
-.portfolio-img-container{
+.portfolio-img-container {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     margin-top: 48px;
 }
-.portfolio-img{
+
+.portfolio-img {
     max-width: 424px;
     border-radius: 16px;
     transition: 0.2s;
 }
 
-.portfolio-img:hover{
+.portfolio-img:hover {
     transform: scale(1.2);
+}
+
+/* subscribe section related styles */
+.subscribe-section {
+    margin: 120px 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 212px;
+}
+
+.subscribe-section img {
+    max-width: 150px;
+    margin-bottom: 18px;
+}
+
+.submit-style {
+    margin-top: 48px;
+    margin: 48px auto 0;
+    position: relative;
+}
+
+.submit-style input {
+    border: none;
+    padding: 18px;
+}
+
+.mail-inp {
+    width: 684px;
+    border-radius: 50px;
+    background-color: #FFF;
+
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+}
+
+.subscription-inp {
+    width: 210px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    position: absolute;
+    /* right: 651px; */
+    right: 87px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
 }
