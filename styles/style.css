@@ -116,3 +116,35 @@ body {
     border: none;
     margin-left: 32px;
 }
+
+/* schedule section */
+.schedule-section {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 16px;
+}
+
+.schedule-title {
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.schedule-title-color {
+    color: #F00;
+}
+
+.schedule-section button {
+    border-radius: 8px;
+    background: #F00;
+    padding: 15px 32px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 48px;
+}
