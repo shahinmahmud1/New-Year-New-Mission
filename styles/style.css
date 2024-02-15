@@ -14,7 +14,8 @@ a {
     text-decoration: none;
 }
 
-body {
+header,
+main {
     max-width: 1320px;
     margin: 0 auto;
 }
@@ -252,7 +253,7 @@ body {
 
 .submit-style input {
     border: none;
-    padding: 18px;
+    padding: 18px 30px;
 }
 
 .mail-inp {
@@ -276,4 +277,36 @@ body {
     font-family: Inter;
     font-size: 18px;
     font-weight: 600;
+}
+
+/* Footer related styles */
+.footer-section {
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 120px 140px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+
+}
+.footer-text-left{
+    width: 25%;
+}
+
+.footer-icon-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 48px 0;
+}
+.footer-icon{
+    max-width: 64px;
 }
