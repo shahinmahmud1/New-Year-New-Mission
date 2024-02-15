@@ -74,3 +74,45 @@ body {
 .discount-section img {
     max-width: 802px;
 }
+
+/* Party section related styles */
+.party-section {
+    background: url('../images/Vectorrr.png'), linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    border-radius: 16px;
+    margin: 120px 0;
+    background-blend-mode: overlay;
+}
+
+.party-item {
+    padding: 68px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 94px;
+}
+
+.party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    margin: 24px 0 48px 0;
+}
+
+.party-item button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    margin-left: 32px;
+}
