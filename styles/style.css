@@ -21,7 +21,7 @@ body {
 /* header related styles */
 
 .banner {
-    background: url('../images/Banner\ Image.png'),linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background: url('../images/Banner\ Image.png'), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-repeat: no-repeat;
     max-width: 1320px;
     margin-top: 50px;
@@ -44,4 +44,33 @@ body {
 .banner-title {
     font-size: 72px;
     font-weight: 900;
+}
+
+/* Discout Section related styles */
+.discount-section {
+    margin-top: 120px;
+    text-align: center;
+    font-family: Inter;
+}
+
+.discount-title {
+    color: #F00;
+    font-size: 88px;
+}
+
+.discount-description {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 0 10px 0;
+}
+
+.discount-catagory {
+    color: #070211;
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+
+.discount-section img {
+    max-width: 802px;
 }
